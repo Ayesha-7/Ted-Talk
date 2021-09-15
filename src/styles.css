@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+hr {
+  border-top: 2px solid rgb(90, 88, 88);
+}
+
+h1 {
+  margin-top: 0.5rem;
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  border-radius: 0.7rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+li {
+  border: solid red;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  width: 48%;
+}
+
+div {
+  padding: 0.5rem;
+}
+
+.watchBtn {
+  background-color: rgb(255, 0, 0, 0.5);
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  font-weight: bolder;
+  color: black;
+  display: inline-block;
+}
+
+.watchBtn:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.space {
+  margin: 1rem;
+}
